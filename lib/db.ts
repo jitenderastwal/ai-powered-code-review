@@ -23,3 +23,13 @@ export const prisma = globalForPrisma.prisma ?? createPrismaClient();
 if(process.env.NODE_ENV !== "production"){
     globalForPrisma.prisma = prisma;
 }
+
+
+
+
+
+
+// This code creates and exports a reusable Prisma Client instance 
+// connected to PostgreSQL, using the Prisma 7+ driver adapter approach. 
+// It also prevents creating multiple Prisma Client instances during Next.js
+//  development hot reloads.

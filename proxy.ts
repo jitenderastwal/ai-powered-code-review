@@ -4,7 +4,7 @@ import { handleAuthProxy } from "./features/auth/utils/auth-proxy";
 
 export async function proxy(request: NextRequest) {
   return handleAuthProxy(request);
-}
+} 
 
 
 export const config = {

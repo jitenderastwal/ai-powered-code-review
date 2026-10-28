@@ -28,7 +28,7 @@ export async function handleAuthProxy(request: NextRequest) {
 
   const session = await auth.api.getSession({
     headers: request.headers,
-  });
+  }); 
 
   if (pathname === SIGN_IN_PATH) {
     if (session) {
