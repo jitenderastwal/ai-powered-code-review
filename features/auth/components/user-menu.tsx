@@ -141,7 +141,7 @@ export function UserMenu({
         <DropdownMenuSeparator />
         <DropdownMenuGroup>
           <DropdownMenuItem variant="destructive" onClick={handleSignOut}>
-            <SignOutIcon  />
+            <SignOutIcon />
             Log out
           </DropdownMenuItem>
         </DropdownMenuGroup>
